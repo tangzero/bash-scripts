@@ -10,7 +10,7 @@ function main() {
 	fi
 
 	cat $filename | while read user; do
-		if [ ! -z "$user" ]; then
+		if [[ ! -z "$user" ]]; then
 			create_user $user
 		fi
 	done
