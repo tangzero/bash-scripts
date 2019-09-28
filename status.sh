@@ -6,7 +6,7 @@ function show_ps_count() {
 }
 
 function show_users() {
-	echo "User running a process"
+	echo "Users running a process"
 	ps aux | cut -d " " -f1 | sort | uniq | head -n -1
 }
 
