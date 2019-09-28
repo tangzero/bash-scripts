@@ -1,0 +1,4 @@
+chile:santiago
+brasil:brasilia
+argentina:buenos_aires
+ecuador:quito
